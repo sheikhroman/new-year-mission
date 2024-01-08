@@ -4,8 +4,11 @@
   margin: 0;
   padding: 0;
 }
-body {
-  padding: 40px 120px 0px;
+header {
+  padding: 40px 100px 0px;
+}
+main{
+  padding: 40px 100px 0px;
 }
 
 /* header css */
@@ -332,6 +335,10 @@ body {
   margin-top: 20px;
   gap: 20px;
 }
+.img:hover{
+  transform: scale(.9);
+  transition: 1s;
+}
 .port-img-2 {
   display: flex;
   margin-top: 20px;
@@ -365,58 +372,76 @@ body {
   font-weight: 400;
   line-height: 32px;
 }
-.input{
-    margin-top: 40px;
-    display: inline-block;
+.input {
+  margin-top: 40px;
+  display: inline-block;
 }
 input {
-    height: 60px;
-        width: 320px;
-        background-color: #fff;
-        border-radius: 50px;
-        text-align: center;
-        border: 0;
+  height: 60px;
+  width: 320px;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  border: 0;
 }
-input[type='button']{
+input[type="button"] {
   background-color: #f00;
   color: #fff;
-text-align: center;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+input[type="button"]:hover{
+  background-color: #ffeaea;
+  color: #f00;
+  transition: 1s;
+  cursor: pointer;
+  border: 1px solid #f00;
 }
 /* footer */
 footer{
+  margin-top: 60px;
   background-color: #070211;
-  color: #fff;
-
 }
-.footer{
-  padding: 50px;
+.footer-top{
   display: flex;
+  color: #fff;
+  padding: 40px;
 }
-.footer .left{
-  width: 20%;
+.footer-top-left{
+  width: 30%;
 }
-.footer .middle{
-  margin-top: 100px;
+.footer-top-mid{
+  width: 40%;
+}
+hr{
+  width: 90%;
+  margin-left: 60px;
+  vertical-align: middle;
+  opacity: 0.2;
+}
+.footer-top-right{
+  width: 30%;
+}
+.footer-mid{
+  padding: 40px 0px 40px;
   align-items: center;
   text-align: center;
-  width: 60%;
 }
-.footer .middle img{
-  width: 10%;
+.footer-bottom{
+  padding: 40px;
+  display: flex;
+  color: #fff;
 }
-.footer .right{
+.footer-bottom-left{
   width: 20%;
 }
-
-.foo-p{
-  margin-top: 150px;
+.footer-bottom-mid{
+  width: 60%;
 }
-.footer .footer-icon{
-  display: flex;
-  gap: 10px;
+.footer-bottom-right{
+  width: 20%;
 }
