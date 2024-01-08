@@ -29,47 +29,144 @@ body {
   font-family: "Merriweather", serif;
   padding-top: 180px;
 }
-.header-text{
-    color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-line-height: 95px;
-padding-top: 20px;
+.header-text {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px;
+  padding-top: 20px;
 }
 /* offer css */
-.offer h1{
-    padding-top: 50px;
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 88px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.offer h1 {
+  padding-top: 50px;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.offer p{
-    padding-top: 30px;
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.offer p {
+  padding-top: 30px;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
-.offer h2{
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.offer h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.offer img{
-    padding-top: 50px;
+.offer-img {
+  text-align: center;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* party css */
+.party {
+  margin-top: 50px;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Vectorrr.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+}
+.party-body {
+  display: flex;
+  padding-top: 100px;
+}
+.party-text {
+  width: 60%;
+  padding-left: 50px;
+  text-align: start;
+}
+.party-img {
+  width: 40%;
+}
+.party-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+.party-text p {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.party-text button {
+  padding-top: 50px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* event css */
+.event{
+    background-color: #ffeaea;
+    margin-top: 70px;
+    border-radius: 5px;
     align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+.event h2{
+    font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+.event span{
+    color: #f00;
+}
+.event button {
+    margin-top: 30px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #f00;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* coming css */
+.coming{
+    margin-top: 50px;
+    display: flex;
 }
